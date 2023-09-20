@@ -1,1 +1,1 @@
-# jsbasic1
+Đây là bài thực hành JS Basic của nahNi
