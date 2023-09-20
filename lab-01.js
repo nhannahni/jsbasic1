@@ -20,6 +20,12 @@ console.log("*  *  *")
 console.log("*     *")
 console.log(" *   *")
 console.log("   *   ")
+console.log("")
+
+// addition
 console.log('|`  |  /`   |   | |`  | |')
 console.log('| ` | /- `  |-- | | ` | |')
 console.log('|  `|/    ` |   | |  `| |')
+
+let nahNi = 17
+console.log(nahNi)
