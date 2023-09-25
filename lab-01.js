@@ -68,3 +68,22 @@ let nahNi={
 nahNi.soDienThoai ="0388468949"
 nahNi.chieuCao = "20cm"
 console.log(nahNi)
+a = 5
+b = 7
+
+let ketQua = a / b
+console.log(ketQua)
+let trungBinhCong = (a+b)/2
+console.log('trungBinhCong:',trungBinhCong)
+z=6 , y=4, x=3
+let x2 = Math.pow(x,2)
+console.log(Math.pow(x,2) + 2*x +1)
+console.log(Math.pow(x,3)-3*x*y-5*y+3*Math.pow(y,2))
+console.log(Math.pow(x*y,2)-2*Math.pow(x,2)*y+13*y)
+console.log(4*Math.pow(x,3)+3*x*y+Math.pow(y,2)-(2*Math.pow(x,2)-3*y))
+console.log((5*Math.pow(x,2)/(4*x*y))+Math.pow(y,2))
+console.log(Math.pow(x,2)-((2*z*x*y)/Math.pow(y,2))+5*x-(2*Math.pow(y,2))+4*x*Math.pow(z,3)+Math.pow(z,3))
+let d=5
+//dien tich hinh tron
+s= pi*d*d/4
+console.log(s)
