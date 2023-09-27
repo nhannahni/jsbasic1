@@ -76,14 +76,22 @@ console.log(ketQua)
 let trungBinhCong = (a+b)/2
 console.log('trungBinhCong:',trungBinhCong)
 z=6 , y=4, x=3
-let x2 = Math.pow(x,2)
-console.log(Math.pow(x,2) + 2*x +1)
-console.log(Math.pow(x,3)-3*x*y-5*y+3*Math.pow(y,2))
-console.log(Math.pow(x*y,2)-2*Math.pow(x,2)*y+13*y)
-console.log(4*Math.pow(x,3)+3*x*y+Math.pow(y,2)-(2*Math.pow(x,2)-3*y))
-console.log((5*Math.pow(x,2)/(4*x*y))+Math.pow(y,2))
-console.log(Math.pow(x,2)-((2*z*x*y)/Math.pow(y,2))+5*x-(2*Math.pow(y,2))+4*x*Math.pow(z,3)+Math.pow(z,3))
-let d=5
-//dien tich hinh tron
-s= pi*d*d/4
-console.log(s)
+let x2 = Math.pow(x,2), x3 = Math.pow(x,3), y2= Math.pow(y,2), y3= Math.pow(y,3), z3=Math.pow(z,3)
+
+console.log('c1:',x2 + 2*x +1)
+console.log('c2:',x3-3*x*y-5*y+3*y2)
+console.log('c3:',Math.pow(x*y,2)-2*x2*y+13*y)
+console.log('c4:',4*x3+3*x*y+y2-(2*x2-3*y))
+console.log('c5:',(5*x2/(4*x*y))+y2)  
+console.log('c6:',x2-((2*z*x*y)/y2)+5*x-(2*y2)+4*x*z3+z3)
+let d=5 ,r=d/2
+let s= pi*r*r
+let c=pi*d
+console.log('S:',s)
+console.log('C:',c)
+console.log("Tinh Van Toc")
+let quangDuong = vanToc*thoiGian
+let vanToc = quangDuong/thoiGian
+let thoiGian = quangDuong/vanToc
+quangDuong=120, thoiGian=130/60
+console.log(v)
