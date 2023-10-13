@@ -75,3 +75,51 @@ function kiemTraNguyenAmPhuAm(n){
     }
 }
 kiemTraNguyenAmPhuAm('o')
+
+
+// Bai 2
+
+let a = 2
+let b = 3
+let c = 1
+function giaiPhuongTrinhBac2(a,b,c){
+    let delta = b*b-4*a*c
+    if(delta<0){
+        return 'Phuong trinh vo nghiem'
+    }
+    else if (delta==0){
+        return ` phuong trinh co nghiem x1= x2 =${-b / (2*a)}`
+    }
+    else{
+        const x1=(-b +Math.sqrt(delta))/(2*a)
+        const x2=(-b +Math.sqrt(delta))/(2*a)
+
+        return (x1,x2)
+    }
+}
+let ketqua = giaiPhuongTrinhBac2(5,6,7)
+console.log(ketqua)
+
+//Bai 2d
+
+
+function tinhCuocDienThoai(soPhut){
+    const phiThueBao =25000
+    let tongChiPhi = 0
+    let chiPhi = 0
+
+    if (soPhut >=0 && soPhut <=50){
+        chiPhi=soPhut*600
+    }     
+    else if (soPhut>=50 && soPhut <=200){
+        chiPhi=50*600+(soPhut-50)*400
+    }
+    else if (soPhut >200){
+        chiPhi=50*600 +150*400+(soPhut-200)*200
+    }
+    tongChiPhi=phiThueBao +chiPhi
+
+    return tongChiPhi
+}
+let tongChiPhi = tinhCuocDienThoai(255)
+console.log('tongChiPhi=',tongChiPhi)
